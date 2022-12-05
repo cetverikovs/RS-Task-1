@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+@media (max-width: 650px) {
+    .info, .container {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: #e9a43c;
+    font-size: 16px;
+    /* font-weight: bold; */
+
+    color: #21216e;
+}
+
+.container, .contacts {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.avatar {
+    width: 25%;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+.list li, .goals li, .courses li {
+    margin-bottom: 10px;
+}
+
+.list li:nth-child(even) {
+    font-weight: bold;
+}
+
+.list li:nth-child(odd) {
+    text-decoration: underline;
+}
+
+.goals, .courses {
+    border: solid black;
+    border-radius: 40px;
+    /* background: grey; */
+    padding: 20px;
+    margin: 20px;
+    
+}
+.goals h2, .courses h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contacts {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    margin-bottom: 20px;
+    
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+
+}
+a img:hover {
+    /* width: 50px;
+    height: 50px; */
+    transform: scale(1.2);
+    transition: all 1s;
+    border: 1px solid #821010;
+
+}
+
+
+
+
